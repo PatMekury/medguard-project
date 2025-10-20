@@ -1,0 +1,56 @@
+{
+  "load_time": "2025-10-20T00:19:02.686652",
+  "datasets_loaded": [
+    "sst",
+    "currents",
+    "salinity",
+    "chlorophyll",
+    "fishing",
+    "mpa",
+    "fao_stats"
+  ],
+  "data_quality_checks": {
+    "sst": {
+      "time_range": [
+        "2023-01-01T00:00:00.000000000",
+        "2024-12-01T00:00:00.000000000"
+      ],
+      "spatial_coverage": {
+        "lat_range": [
+          30.1875,
+          45.97916793823242
+        ],
+        "lon_range": [
+          -5.999999046325684,
+          36.29167175292969
+        ]
+      },
+      "missing_data_pct": 61.28460422710319
+    }
+  },
+  "validation": {
+    "temporal_consistency": {
+      "sst": {
+        "start": "2023-01-01T00:00:00.000000000",
+        "end": "2024-12-01T00:00:00.000000000",
+        "n_timesteps": 24
+      },
+      "currents": {
+        "start": "2023-01-01T00:00:00.000000000",
+        "end": "2024-12-01T00:00:00.000000000",
+        "n_timesteps": 24
+      },
+      "salinity": {
+        "start": "2023-01-01T00:00:00.000000000",
+        "end": "2024-12-01T00:00:00.000000000",
+        "n_timesteps": 24
+      },
+      "chlorophyll": {
+        "start": "2023-01-01T00:00:00.000000000",
+        "end": "2024-12-01T00:00:00.000000000",
+        "n_timesteps": 24
+      }
+    },
+    "spatial_alignment": true
+  }
+}
